@@ -10,10 +10,12 @@ const NavBarComp = () => {
     <Router>
       <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
-          <BsBook style={{ fontSize: '30px', marginRight: '10px', color: '#FFFFFF' }} />
-          <Navbar.Brand href={`${process.env.PUBLIC_URL}/home`}>
-            Proverbs App
-          </Navbar.Brand>
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <BsBook style={{ fontSize: '30px', marginRight: '10px', color: '#FFFFFF' }} />
+            <div style={{ color: '#FFFFFF', fontSize: '1.5rem', fontWeight: 'bold' }}>
+              Proverbs App
+            </div>
+          </div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
