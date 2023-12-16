@@ -12,17 +12,17 @@ const NavBarComp = () => {
         <Container>
           <div style={{ display: 'flex', alignItems: 'center' }}>
             <BsBook style={{ fontSize: '30px', marginRight: '10px', color: '#FFFFFF' }} />
-            <div style={{ color: '#FFFFFF', fontSize: '1.5rem', fontWeight: 'bold' }}>
+            <div style={{ color: '#FFFFFF', fontSize: '1.5rem', fontWeight: 'bold', marginRight: '10px' }}>
               Proverbs App
             </div>
           </div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link as={Link} to={`${process.env.PUBLIC_URL}/home`}>
+              <Nav.Link as={Link} to={`${process.env.PUBLIC_URL}/home`} style={{ fontSize: '1.2rem', margin: '0 10px' }}>
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} to={`${process.env.PUBLIC_URL}/about`}>
+              <Nav.Link as={Link} to={`${process.env.PUBLIC_URL}/about`} style={{ fontSize: '1.2rem', margin: '0 10px' }}>
                 About
               </Nav.Link>
             </Nav>
