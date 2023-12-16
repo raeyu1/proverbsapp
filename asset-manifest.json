@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/proverbsapp/static/js/main.4f4262f9.js",
+    "main.js": "/proverbsapp/static/js/main.b1d7f199.js",
     "static/js/493.54bcb746.chunk.js": "/proverbsapp/static/js/493.54bcb746.chunk.js",
     "index.html": "/proverbsapp/index.html",
-    "main.4f4262f9.js.map": "/proverbsapp/static/js/main.4f4262f9.js.map"
+    "main.b1d7f199.js.map": "/proverbsapp/static/js/main.b1d7f199.js.map"
   },
   "entrypoints": [
-    "static/js/main.4f4262f9.js"
+    "static/js/main.b1d7f199.js"
   ]
 }
