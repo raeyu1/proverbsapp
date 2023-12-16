@@ -5,8 +5,7 @@ import { BrowserRouter as Router } from 'react-router-dom'; // Import the Router
 import App from './App';
 
 ReactDOM.render(
-  // eslint-disable-next-line
-  <Router>
+  <Router basename="/proverbsapp"> {/* Set the basename */}
     <App />
   </Router>,
   document.getElementById('root')
